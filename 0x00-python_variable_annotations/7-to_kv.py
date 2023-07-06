@@ -9,5 +9,9 @@ and should be annotated as a float.
 
 
 def to_kv(k: str, v: Union[int, float]) -> Tuple:
+    """returns a tuple containing a string and a float value
+    k : string value
+    v : float or integer
+    """
     float(v)
     return (k, v**2)

@@ -9,4 +9,7 @@ Vector = List[Union[int, float]]
 
 
 def sum_mixed_list(sum_mixed_list: Vector) -> float:
+    """returns the sum of a list of mixed floats and
+    integers
+    """
     return sum(sum_mixed_list)

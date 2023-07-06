@@ -10,4 +10,7 @@ Vector = List[float]
 
 
 def sum_list(input_list: Vector) -> float:
+    """returns the sum of a list of float
+    values
+    """
     return sum(input_list)
