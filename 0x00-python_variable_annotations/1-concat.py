@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """1-concat defines function concat that takes two
 strings as arguments and returns a concatenated string
 """

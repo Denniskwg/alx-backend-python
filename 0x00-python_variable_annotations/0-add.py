@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """0-add defines a function add that takes two floats
 and returns their sum as a float
 """

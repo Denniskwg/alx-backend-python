@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 from typing import Callable
 """8-make_multiplier defines a function make_multiplier
 that takes a float multiplier as argument and returns a

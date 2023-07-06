@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 from typing import Tuple, Union
 """7-to_kv defines function to_kv that takes a string k
 and an int OR float v as arguments and returns a tuple.
