@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 import asyncio
 import random
-"""0-basic_async_syntax
-
+"""0-basic_async_syntax defines a function
+wait_random that waits for a random delay and
+returns the delay
 """
 
 
