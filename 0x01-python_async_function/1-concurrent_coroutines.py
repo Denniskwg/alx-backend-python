@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-import asyncio
-from typing import List
-wait_random = __import__('0-basic_async_syntax').wait_random
 """1-concurrent_coroutines defines a function wait_n
 that spawns wait_random imported from 0-basic_async_syntax
 a number of times
 """
+
+import asyncio
+from typing import List
+wait_random = __import__('0-basic_async_syntax').wait_random
 
 
 Vector = List[float]

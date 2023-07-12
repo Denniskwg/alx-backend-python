@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-import asyncio
-from typing import List
-task_wait_random = __import__('3-tasks').task_wait_random
 """4-tasks defines a function task_wait_n
 that spawns wait_random imported from 0-basic_async_syntax
 a number of times
 """
+
+import asyncio
+from typing import List
+task_wait_random = __import__('3-tasks').task_wait_random
 
 
 Vector = List[float]
